@@ -234,7 +234,7 @@ math {
     font-size: 1.42em;
 }
 
-span.important {
+.important {
     color: #c85000;
     text-shadow: 0 0 12px #c85000a0;
 }
