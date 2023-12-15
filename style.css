@@ -234,7 +234,7 @@ math {
     font-size: 1.42em;
 }
 
-span.important {
+.important {
     color: #c85000;
     text-shadow: 0 0 12px #c85000a0;
 }
@@ -315,4 +315,46 @@ span.important {
 .body {
     font-size: 1.2em;
     margin-left: 65px;
+}
+
+.animatie {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 80%;
+    margin: 24px;
+    position: absolute;
+  width:400px;
+}
+
+/* Table */
+
+table {
+    margin: 0 auto;
+}
+
+table {
+    color: #333;
+    background: white;
+    font-size: 12pt;
+    border-collapse: collapse;
+    border: 0px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 8px #0002;
+}
+
+table thead th,
+table tfoot th {
+    background: #ffdbb4;
+}
+
+table caption {
+    padding:.5em;
+}
+
+table th,
+table td {
+    padding: .5em;
+    border: 1px solid lightgrey;
 }
